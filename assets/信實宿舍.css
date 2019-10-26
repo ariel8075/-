@@ -36,16 +36,21 @@ body
 }
 
 
-.ti01
+.all
 {
-	margin:0;
-	padding: 0;
+    text-align: center;
+}
+
+
+.menu
+{
+    margin:0;
+    padding: 0;
     list-style: none;
 }
 .drop-down-menu 
 { 
     letter-spacing: 3px;
-    margin-left: 40px;
     margin-top:-10px; 
     padding:0;
     list-style: none;
@@ -53,7 +58,6 @@ body
     font-family: 微軟正黑體;
     font-size: 25px;
 }
-
 .drop-down-menu li 
 {
     position: relative;
