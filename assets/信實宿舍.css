@@ -27,6 +27,14 @@ a:active
   color: #8F5D00;
 }
 
+body
+{ 
+    position: relative;
+    height: 100%;
+    z-index: 999;
+    width: 1250px;
+}
+
 
 .ti01
 {
