@@ -5,7 +5,6 @@
   font-size: 25px;
   letter-spacing: 20px;
   color: #8F5D00;
-
   
 }
 
@@ -31,15 +30,15 @@ a:active
 
 .ti01
 {
-    margin:0;
-    padding: 0;
+	margin:0;
+	padding: 0;
     list-style: none;
 }
 .drop-down-menu /* 取消ul預設的內縮及樣式 */
 { 
-    letter-spacing: 3px;
+	letter-spacing: 3px;
     margin-left: 20px;
-    margin-top:20px; 
+    margin-top:-10px; 
     padding:0;
     list-style: none;
     display: inline-block;
@@ -61,7 +60,7 @@ a:active
 
 .drop-down-menu a 
 {
-    background-color: #FFE5B4;
+    background-color: #FFF3DE;
     color: 	#D68B00;
     display: block;
     padding: 0 90px;
