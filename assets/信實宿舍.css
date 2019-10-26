@@ -36,12 +36,6 @@ body
 }
 
 
-.all
-{
-    text-align: center;
-}
-
-
 .menu
 {
     margin:0;
@@ -51,6 +45,7 @@ body
 .drop-down-menu 
 { 
     letter-spacing: 3px;
+    margin-left: 30px;
     margin-top:-10px; 
     padding:0;
     list-style: none;
