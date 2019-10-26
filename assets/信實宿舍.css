@@ -71,8 +71,8 @@ a:active
 
 .drop-down-menu li:hover > a /* 滑鼠移入次選單上層按鈕保持變色*/
 { 
-    background-color:#FFCF78;
-    color: #FAFAFA;
+    background-color:#FFE1AB;
+    color: #8A5A00;
 }
 
 .drop-down-menu ul 
@@ -86,6 +86,7 @@ a:active
 { 
     display: block;
 }
+
 
 
 
