@@ -2,23 +2,29 @@
 {
   text-align: center;
   font-family: 微軟正黑體;
+  font-size: 25px;
+  letter-spacing: 20px;
+
+  
 }
+
+
 a:link
 {
 text-decoration:none;
-color:black;
+  color: #8F5D00;
 }
 a:vist
 {
- color:black;
+  color: #8F5D00;
 }
 a:hover
 {
- color:black;
+  color: #8F5D00;
 }
 a:active
 {
- color:black;
+  color: #8F5D00;
 }
 
 
@@ -30,14 +36,15 @@ a:active
 }
 .drop-down-menu /* 取消ul預設的內縮及樣式 */
 { 
-    margin-left: 70px;
-    margin-top:50px; 
+	letter-spacing: 3px;
+    margin-left: 20px;
+    margin-top:20px; 
     padding:0;
     list-style: none;
  	<!--border: #ccc 1px solid;-->
     display: inline-block;
     font-family: 微軟正黑體;
-    font-size: 25px;
+    font-size: 27px;
 }
 
 .drop-down-menu li 
@@ -56,22 +63,18 @@ a:active
 .drop-down-menu a 
 {
     background-color: #FFE5B4;
-    color: #333;
+    color: 	#D68B00;
     display: block;
     padding: 0 90px;
     text-decoration: none;
     line-height: 50px;
 
 }
-.drop-down-menu a:hover /* 滑鼠滑入按鈕變色*/
-{ 
-    background-color: #ef5c28;
-    color: #fff;
-}
+
 .drop-down-menu li:hover > a /* 滑鼠移入次選單上層按鈕保持變色*/
 { 
-    background-color:#FFBD45;
-    color: #fff;
+    background-color:#FFCF78;
+    color: #FAFAFA;
 }
 
 .drop-down-menu ul 
@@ -89,4 +92,6 @@ a:active
 { 
     display: block;
 }
+
+
 
