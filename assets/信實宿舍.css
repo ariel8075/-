@@ -14,9 +14,18 @@ a:vist
 }
 a:hover
 {
+
 	color:black;
 }
 a:active
 {
 	color:black;
 }
+
+ color:black;
+}
+a:active
+{
+ color:black;
+}
+
