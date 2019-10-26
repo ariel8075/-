@@ -105,6 +105,17 @@ body
   }
  
 
+.coverflow
+{
+  position:relative;
+  left:340px;
+  top:20px;
+  width: 570px;
+  height: 340px;
+  border: solid;
+  }
+ 
+
 .coverflow div {
     position: absolute;
     top: 0;
@@ -183,4 +194,3 @@ body
   -webkit-animation-play-state: paused;
   animation-play-state: paused;
 }
-
