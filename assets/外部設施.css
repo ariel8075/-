@@ -1,0 +1,114 @@
+.hd
+{
+  text-align: center;
+  font-family: 微軟正黑體;
+  font-size: 25px;
+  letter-spacing: 20px;
+  color: #8F5D00;
+  
+}
+
+
+a:link
+{
+text-decoration:none;
+  color: #8F5D00;
+}
+a:vist
+{
+  color: #8F5D00;
+}
+a:hover
+{
+  color: #8F5D00;
+}
+a:active
+{
+  color: #8F5D00;
+}
+
+body
+{ 
+    position: relative;
+    height: 100%;
+    z-index: 999;
+    width: 1250px;
+}
+
+.menu
+{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    z-index: 999;
+}
+.drop-down-menu 
+{ 
+    letter-spacing: 3px;
+    margin-left: 30px;
+    margin-top:-10px; 
+    padding:0;
+    list-style: none;
+    display: inline-block;
+    font-family: 微軟正黑體;
+    font-size: 25px;
+}
+.drop-down-menu li 
+{
+    position: relative;
+    white-space: nowrap;
+  }
+
+
+.drop-down-menu > li 
+{
+    float: left; 
+}
+
+.drop-down-menu a 
+{
+    background-color: #FFF3DE;
+    color: 	#D68B00;
+    display: block;
+    padding: 0 90px;
+    text-decoration: none;
+    line-height: 50px;
+
+}
+
+.drop-down-menu li:hover > a 
+{ 
+    background-color:#FFE1AB;
+    color: #8A5A00;
+}
+
+.drop-down-menu ul 
+{
+    position: absolute;
+    display: none; 
+}
+
+
+.drop-down-menu li:hover > ul 
+{ 
+    display: block;
+}
+html, body{height:100%;}  
+.end
+{
+  background:#DEB887;
+  text-align: center;
+    line-height:30px;
+    width:1263px;
+    font-size:15px; 
+    font-family: 微軟正黑體;
+
+}
+
+html,body{height: 100%; margin:0;}
+footer
+{   position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
