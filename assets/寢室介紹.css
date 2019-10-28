@@ -144,6 +144,27 @@ h1
     opacity: 1;           
 }
 
+html, body{height:100%;}  
+.end
+{
+	background:#DEB887;
+	text-align: center;
+    line-height:30px;
+    width:1263px;
+    font-size:15px; 
+    font-family: 微軟正黑體;
+
+}
+
+
+footer
+{   position: absolute;
+    bottom: 0;
+    width: 100%;
+    top:1300px;
+
+}
+
 
 
 
