@@ -16,5 +16,46 @@ footer
 {   position: absolute;
     bottom: 0;
     width: 100%;
+    top:1200px;
+}
+iframe{padding-left:305px;
+       padding-top:20px;}
 
+.traffic_tittle
+
+{ font-size:20px;
+  color: #8F5D00;
+  font-family: 微軟正黑體;
+  
+  padding-top:30px;
+  padding-left:170px;
+
+  
+}
+.traffic
+{ font-size:20px;
+  color: #B87800;
+  font-family: 微軟正黑體;
+  line-height:20px;
+  padding-right:170px;
+  padding-left:170px;
+  
+}
+.traffic_content
+{ font-size:16px;
+  color: #DB8F00;
+  font-family: 微軟正黑體;
+  line-height:20px;
+  padding-right:170px;
+  padding-left:170px;
+  
+}
+.traffic_a
+{ font-size:20px;
+  color: #B87800;
+  font-family: 微軟正黑體;
+  padding-top:10px;
+  padding-right:170px;
+  padding-left:485px;
+  
 }
