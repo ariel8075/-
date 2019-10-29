@@ -188,7 +188,7 @@ body
   animation-play-state: paused;
 }
 
-html, body{height:100%;}  
+html, body{height:100%; margin:0;}  
 .end
 {
 	background:#DEB887;
