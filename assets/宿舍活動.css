@@ -93,7 +93,8 @@ body
 { 
     display: block;
 }
-html, body{height:100%;}  
+
+html, body{height:100%; margin:0;}  
 .end
 {
   background:#DEB887;
@@ -110,5 +111,166 @@ footer
 {   position: absolute;
     bottom: 0;
     width: 100%;
+    top:1150px;
+}
+
+.coverflow
+{
+	float:left;
+  position: relative;
+  left:170px;
+  top:40px;
+  width: 450px;
+  height: 300px;
+}
+ 
+
+.coverflow div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    filter: alpha(opacity=1);
+    -webkit-animation: round 15s linear infinite;
+            animation: round 15s linear infinite;
+}
+@-webkit-keyframes round {
+    7% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        
+    }
+    35% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        
+    }
+    42% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        
+    }
 
 }
+@keyframes round {
+    7% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        
+    }
+    35% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        
+    }
+    42% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        
+    }
+
+}
+
+}
+
+
+.coverflow div:nth-child(1) {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+            opacity: 0;
+           
+}
+
+
+.coverflow div:nth-child(2) {
+    -webkit-animation-delay: 5s;
+            animation-delay: 5s;
+            opacity: 0;
+            
+ }
+
+.coverflow div:nth-child(3) {
+    -webkit-animation-delay: 10s;
+            animation-delay: 10s;
+            opacity: 0;
+            
+            
+}
+
+
+
+.coverflow:hover div 
+{
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
+.activity
+{ 
+	margin-top: 10px;
+	margin-left: 170px;
+	margin-right: 120px;
+	text-align: left;
+	font-family: 微軟正黑體;
+	font-size: 23px;
+	color: #8F5D00;
+	font-weight: bold;
+
+  
+}
+.activity_title1
+{ 
+   font-size:20px;
+   color: #8F5D00;
+   font-family: 微軟正黑體;
+  
+   padding-top:90px;
+   padding-left:700px;
+   padding-right:200px;
+   
+  
+}
+.activity_content1
+{ 
+   font-size:20px;
+   color: #8F5D00;
+   font-family: 微軟正黑體;
+   line-height:40px;
+   padding-top:10px;
+   padding-left:700px;
+   padding-right:180px;
+   
+  
+}
+.coverflow2
+{
+  float:right;
+  padding-top:190px;
+  padding-right:120px;
+}
+
+.activity_title2
+{ 
+   font-size:20px;
+   color: #8F5D00;
+   font-family: 微軟正黑體;
+  
+   padding-top:220px;
+   padding-left:170px;
+   padding-right:720px;
+   
+  
+}
+.activity_content2
+{ 
+   font-size:20px;
+   color: #8F5D00;
+   font-family: 微軟正黑體;
+   line-height:40px;
+   padding-top:10px;
+   padding-left:170px;
+   padding-right:720px;
+   
+  
+}
+
+
