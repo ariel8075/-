@@ -1,5 +1,5 @@
 
-html, body{height:100%;}  
+html,body{height: 100%; margin:0;} 
 .end
 {
   background:#DEB887;
@@ -11,7 +11,7 @@ html, body{height:100%;}
 
 }
 
-html,body{height: 100%; margin:0;}
+
 footer
 {   position: absolute;
     bottom: 0;
