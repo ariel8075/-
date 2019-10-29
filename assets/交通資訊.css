@@ -16,7 +16,7 @@ footer
 {   position: absolute;
     bottom: 0;
     width: 100%;
-    top:1200px;
+    top:1250px;
 }
 iframe{padding-left:305px;
        padding-top:20px;}
@@ -54,7 +54,6 @@ iframe{padding-left:305px;
 { font-size:20px;
   color: #B87800;
   font-family: 微軟正黑體;
-  padding-top:10px;
   padding-right:170px;
   padding-left:485px;
   
