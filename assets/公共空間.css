@@ -1,5 +1,8 @@
 
-html, body{height:105%;}  
+  
+
+html,body{height: 100%; margin:0;} 
+
 .end
 {
   background:#DEB887;
@@ -10,6 +13,8 @@ html, body{height:105%;}
     font-family: 微軟正黑體;
 
 }
+
+
 
 footer
 {   position: absolute;

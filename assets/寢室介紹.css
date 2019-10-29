@@ -1,9 +1,22 @@
 
+.title
+{
+	margin-top: 10px;
+	margin-left: 170px;
+	margin-right: 120px;
+	text-align: left;
+	font-family: 微軟正黑體;
+	font-size: 20px;
+	color: #8F5D00;
+	font-weight: bold;
+}
+
+
 .pic01
 {
     position:absolute;
     left:170px;
-    top:200px;
+    top:250px;
     height:261px;
     width:400px;
 }
@@ -12,7 +25,7 @@
 {
     position:absolute;
     left:170px;
-    top:200px;
+    top:250px;
     height:261px;
     width:400px;
     background: rgba(50, 50, 50, 0.6);
@@ -25,10 +38,24 @@ h1
     font-family: 微軟正黑體;
     font-size: 50px;
 }
-p
+.p1
 {
-    text-align: center;
-    font-family: 微軟正黑體;
+	text-align: center;
+	font-family: 微軟正黑體;
+	font-size: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 50px;
+}
+.p2
+{
+	text-align: center;
+	font-family: 微軟正黑體;
+	font-size: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 60px;
+
 }
 .img_div a:hover .mask01
 {
@@ -40,7 +67,7 @@ p
 {
     position:absolute;
     left:170px;
-    top:530px;
+    top:570px;
     height:300px;
     width:400px;
 }
@@ -49,7 +76,7 @@ p
 {
     position:absolute;
     left:170px;
-    top:530px;
+    top:570px;
     height:300px;
     width:400px;
     background: rgba(50, 50, 50, 0.6);
@@ -65,7 +92,7 @@ p
 {
     position:absolute;
     left:630px;
-    top:200px;
+    top:250px;
     height:261px;
     width:464px;
 }
@@ -74,7 +101,7 @@ p
 {
     position:absolute;
     left:630px;
-    top:200px;
+    top:250px;
     height:261px;
     width:464px;
     background: rgba(50, 50, 50, 0.6);
@@ -90,7 +117,7 @@ p
 {
     position:absolute;
     left:630px;
-    top:530px;
+    top:570px;
     height:300px;
     width:464px;
 }
@@ -99,7 +126,7 @@ p
 {
     position:absolute;
     left:630px;
-    top:530px;
+    top:570px;
     height:300px;
     width:464px;
     background: rgba(50, 50, 50, 0.6);
@@ -111,18 +138,36 @@ p
     opacity: 1;           
 }
 
+
 html, body{height:100%; margin:0;}  
 .end
 {
     background:#DEB887;
     text-align: center;
+
+
+
+
+
+html, body{height:100%; margin:0;}  
+.end
+{
+	background:#DEB887;
+	text-align: center;
+
     line-height:30px;
     width:1263px;
     font-size:15px; 
     font-family: 微軟正黑體;
 
 
+
 }
+
+
+}
+
+
 
 footer
 {   position: absolute;
@@ -131,3 +176,12 @@ footer
     top:1300px;
 
 }
+
+
+
+
+
+
+
+
+
