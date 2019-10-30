@@ -51,7 +51,7 @@
 .video02
 {
 	position:absolute;
-    left:260px;
+    left:170px;
     top:730px;
 }
 .video_title
@@ -83,5 +83,29 @@ footer
     bottom: 0;
     width: 100%;
     top:1200px;
+}
+.image1
+{
+	position: absolute;
+	left:720px;
+	top:730px;
+}
+.image2
+{
+	position: absolute;
+	left:950px;
+	top:730px;
+}
+.image3
+{
+	position: absolute;
+	left:720px;
+	top:880px;
+}
+.image4
+{
+	position: absolute;
+	left:950px;
+	top:880px;
 }
 
