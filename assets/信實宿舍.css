@@ -210,9 +210,9 @@ html, body{height:100%; margin:0;}
 {
 	background:#DEB887;
 	text-align: center;
-    line-height:30px;
+    line-height:20px;
     width:1263px;
-    font-size:15px; 
+    font-size:12px; 
     font-family: 微軟正黑體;
 
 
@@ -262,29 +262,5 @@ footer
 
 }
 
-.text
-{
- 
- text-align: center;
-	font-family: 微軟正黑體;
-	font-size: 20px;
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-top: 50px;
-}
-.mask1 
-{
-    position:absolute;
-    left:155px;
-    top:70px;
-    height:150px;
-    width:150px;
-    background: rgba(50, 50, 50, 0.6);
-    color: #ffffff;
-    opacity: 0;
-}
-.img_div a:hover .mask1
-{
-    opacity: 1;           
-}
+
 
