@@ -111,7 +111,7 @@ footer
 {   position: absolute;
     bottom: 0;
     width: 100%;
-    top:1150px;
+    top:1020px;
 }
 
 .coverflow
@@ -243,10 +243,52 @@ footer
 }
 .coverflow2
 {
+  position: relative;
   float:right;
-  padding-top:190px;
-  padding-right:120px;
+  top:130px;
+  right:600px;
 }
+.coverflow2 div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    filter: alpha(opacity=1);
+    -webkit-animation: round 15s linear infinite;
+            animation: round 15s linear infinite;
+}
+
+.coverflow2 div:nth-child(1) {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+            
+           
+}
+
+
+.coverflow2 div:nth-child(2) {
+    -webkit-animation-delay: 5s;
+            animation-delay: 5s;
+            opacity: 0;
+            
+ }
+
+.coverflow2 div:nth-child(3) {
+    -webkit-animation-delay: 10s;
+            animation-delay: 10s;
+            opacity: 0;
+            
+            
+}
+
+
+
+.coverflow2:hover div 
+{
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
+
 
 .activity_title2
 { 
@@ -254,9 +296,9 @@ footer
    color: #8F5D00;
    font-family: 微軟正黑體;
   
-   padding-top:220px;
-   padding-left:170px;
-   padding-right:720px;
+   padding-top:170px;
+   padding-left:210px;
+   padding-right:680px;
    
   
 }
@@ -267,8 +309,8 @@ footer
    font-family: 微軟正黑體;
    line-height:40px;
    padding-top:10px;
-   padding-left:170px;
-   padding-right:720px;
+   padding-left:210px;
+   padding-right:680px;
    
   
 }
