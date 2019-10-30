@@ -262,5 +262,12 @@ footer
 
 }
 
-
+.contact
+{
+	position: relative;
+	top:50px;
+	left:50px;
+	color: #8F5D00;
+	font-size:20px;
+}
 
