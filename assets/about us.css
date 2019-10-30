@@ -1,4 +1,163 @@
+/*關於我們*/
+.title
+{
+	margin-top: 10px;
+	margin-left: 120px;
+	margin-right: 120px;
+	text-align: left;
+	font-family: 微軟正黑體;
+	font-size: 23px;
+	color: #8F5D00;
+	font-weight: bold;
+}
+.box01
+{
+	border: 3px dotted #E09200;
+	border-radius: 50px;
+	width: 560px;
+	height: 350px;
+	position:absolute;
+    left:70px;
+    top:240px;  
+}
+.text01_1
+{
+	padding-left:30px;
+	padding-top:10px;
+	font-family: 微軟正黑體;
+	font-weight: bold;
+	font-size: 30px;
+	color:#B27400 ; 
+}
+.text01
+{
+	padding-left:200px;
+	margin-top:-30px;
+	font-family: 微軟正黑體;
+	font-size: 18px;
+	color:#B27400 ; 
+	z-index:999;
+}
+.pic01
+{
+	position:absolute;
+    left:25px;
+    top:250px;
+    height:341px;
+    width:330px;
+    z-index:-1;
+}
 
+.box02
+{
+	border: 3px dotted #E09200;
+	border-radius: 50px;
+	width: 560px;
+	height: 350px;
+	position:absolute;
+    left:640px;
+    top:240px;
+}
+.text02_1
+{
+	padding-left:30px;
+	padding-top:10px;
+	font-family: 微軟正黑體;
+	font-weight: bold;
+	font-size: 30px;
+	color:#B27400 ; 
+}
+.text02
+{
+	padding-left:250px;
+	margin-top:-30px;
+	font-family: 微軟正黑體;
+	font-size: 18px;
+	color:#B27400 ; 
+}
+
+.pic02
+{
+	position:absolute;
+    left:600px;
+    top:270px;
+    height:320px;
+    width:350px;
+}
+
+.box03
+{
+	border: 3px dotted #E09200;
+	border-radius: 50px;
+	width: 560px;
+	height: 350px;
+	position:absolute;
+    left:70px;
+    top:620px;
+}
+.text03_1
+{
+	padding-left:30px;
+	padding-top:10px;
+	font-family: 微軟正黑體;
+	font-weight: bold;
+	font-size: 30px;
+	color:#B27400 ; 
+}
+.text03
+{
+	padding-left:250px;
+	margin-top:-30px;
+	font-family: 微軟正黑體;
+	font-size: 18px;
+	color:#B27400 ; 
+}
+
+.pic03
+{
+	position:absolute;
+    left:50px;
+    top:605px;
+    height:367px;
+    width:380px;
+}
+
+.box04
+{
+	border: 3px dotted #E09200;
+	border-radius: 50px;
+	width: 560px;
+	height: 350px;
+	position:absolute;
+    left:640px;
+    top:620px;
+}
+.text04_1
+{
+	padding-left:30px;
+	margin-top:10px;
+	font-family: 微軟正黑體;
+	font-weight: bold;
+	font-size: 30px;
+	color:#B27400 ; 
+}
+.text04
+{
+	margin-left:275px;
+	margin-top:-20px;
+	font-family: 微軟正黑體;
+	font-size: 18px;
+	color:#B27400 ; 
+}
+
+.pic04
+{
+	position:absolute;
+    left:570px;
+    top:640px;
+    height:330px;
+    width:428px;
+}
 html, body{height:100%;}  
 .end
 {
