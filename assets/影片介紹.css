@@ -1,3 +1,23 @@
+/*影片介紹*/
+
+.title
+{
+	margin-top: 10px;
+	margin-left: 170px;
+	margin-right: 120px;
+	text-align: left;
+	font-family: 微軟正黑體;
+	font-size: 23px;
+	color: #8F5D00;
+	font-weight: bold;
+}
+
+.video01
+{
+	position:absolute;
+    left:550px;
+    top:250px;
+}
 
 html, body{height:100%;}  
 .end
@@ -18,3 +38,4 @@ footer
     width: 100%;
     top:500px;
 }
+
