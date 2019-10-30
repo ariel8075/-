@@ -1,0 +1,87 @@
+/*影片介紹*/
+
+.title
+{
+	margin-top: 10px;
+	margin-left: 170px;
+	margin-right: 120px;
+	text-align: left;
+	font-family: 微軟正黑體;
+	font-size: 23px;
+	color: #8F5D00;
+	font-weight: bold;
+}
+
+.video01
+{
+	position:absolute;
+    left:550px;
+    top:250px;
+}
+
+.title
+{
+	margin-top: 10px;
+	margin-left: 170px;
+	margin-right: 120px;
+	text-align: left;
+	font-family: 微軟正黑體;
+	font-size: 23px;
+	color: #8F5D00;
+	font-weight: bold;
+}
+
+.video01
+{
+	position:absolute;
+    left:550px;
+    top:250px;
+}
+.video_content
+{
+
+	font-family: 微軟正黑體;
+	font-size: 20px;
+	color: #8F5D00;
+	padding-left:170px;
+	padding-right:750px;
+	padding-top:70px;
+	line-height:30px;
+}
+.video02
+{
+	position:absolute;
+    left:260px;
+    top:730px;
+}
+.video_title
+{
+
+	font-family: 微軟正黑體;
+	font-size: 20px;
+	color: #8F5D00;
+	padding-left:170px;
+	padding-top:170px;
+	font-weight: bold;
+	
+}
+html, body{height:100%;}  
+.end
+{
+	background:#DEB887;
+	text-align: center;
+    line-height:20px;
+    width:1263px;
+    font-size:12px; 
+    font-family: 微軟正黑體;
+
+
+}
+html,body{height: 100%; margin:0;}
+footer
+{   position: absolute;
+    bottom: 0;
+    width: 100%;
+    top:1200px;
+}
+
